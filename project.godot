@@ -18,6 +18,16 @@ config/icon="res://icon.svg"
 
 Dialogic="*uid://ds2q0uclmolvu"
 
+[dialogic]
+
+directories/dch_directory={
+"ranpo": "res://personajes/ranpo.dch",
+"unit_test_character": "res://Tests/Resources/unit_test_character.dch"
+}
+directories/dtl_directory={}
+layout/style_directory={}
+glossary/default_case_sensitive=true
+
 [display]
 
 window/size/viewport_width=640
