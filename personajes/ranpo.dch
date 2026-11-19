@@ -3,13 +3,65 @@
 "@subpath": NodePath(""),
 &"_translation_id": "",
 &"color": Color(1, 1, 1, 1),
-&"custom_info": {},
-&"default_portrait": "",
+&"custom_info": {
+"prefix": "",
+"sound_mood_default": "",
+"sound_moods": {},
+"style": "style 1",
+"suffix": ""
+},
+&"default_portrait": "idle",
 &"description": "",
 &"display_name": "Ranpo",
 &"mirror": false,
-&"nicknames": [],
+&"nicknames": [""],
 &"offset": Vector2(0, 0),
-&"portraits": {},
+&"portraits": {
+"happy": {
+"export_overrides": {
+"image": "\"res://sprites/ranpo/ranpo happy.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"idle": {
+"export_overrides": {
+"image": "\"res://sprites/ranpo/ranpo iddle.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"serious": {
+"export_overrides": {
+"image": "\"res://sprites/ranpo/ranpo serious.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"smile": {
+"export_overrides": {
+"image": "\"res://sprites/ranpo/ranpo smile.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"talk": {
+"export_overrides": {
+"image": "\"res://sprites/ranpo/ranpo talk.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
 &"scale": 1.0
 }

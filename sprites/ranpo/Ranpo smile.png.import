@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcpnre2cf67ni"
-path="res://.godot/imported/Ranpo smile.png-5192aefed66015dd15c42e6c38229149.ctex"
+uid="uid://c8a8mn7cbik0n"
+path="res://.godot/imported/ranpo smile.png-51dfbd6a3bebf5ade97053f6009a4c9e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/ranpo/Ranpo smile.png"
-dest_files=["res://.godot/imported/Ranpo smile.png-5192aefed66015dd15c42e6c38229149.ctex"]
+source_file="res://sprites/ranpo/ranpo smile.png"
+dest_files=["res://.godot/imported/ranpo smile.png-51dfbd6a3bebf5ade97053f6009a4c9e.ctex"]
 
 [params]
 

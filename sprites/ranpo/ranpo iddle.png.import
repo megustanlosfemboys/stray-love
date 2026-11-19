@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dc8yg0tin61ua"
-path="res://.godot/imported/Ranpo Idle.png-098c89ace476861753a5892c1cde081a.ctex"
+uid="uid://cyt4swtkrn0g7"
+path="res://.godot/imported/ranpo iddle.png-8b71e8daa875a7d356d6381d0b08e0e7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/ranpo/Ranpo Idle.png"
-dest_files=["res://.godot/imported/Ranpo Idle.png-098c89ace476861753a5892c1cde081a.ctex"]
+source_file="res://sprites/ranpo/ranpo iddle.png"
+dest_files=["res://.godot/imported/ranpo iddle.png-8b71e8daa875a7d356d6381d0b08e0e7.ctex"]
 
 [params]
 
