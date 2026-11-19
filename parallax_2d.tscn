@@ -1,10 +1,3 @@
 [gd_scene format=3 uid="uid://d1ielqycbdhhw"]
 
-[ext_resource type="Texture2D" uid="uid://c3pyw4rmyd236" path="res://fondo/ypsajp9w8ygf1 (1).png" id="1_l70dm"]
-
 [node name="Parallax2D" type="Parallax2D" unique_id=2047788507]
-
-[node name="Ypsajp9w8Ygf1(1)" type="Sprite2D" parent="." unique_id=1775897739]
-position = Vector2(320.99997, 180.25)
-scale = Vector2(0.33229166, 0.3328704)
-texture = ExtResource("1_l70dm")
