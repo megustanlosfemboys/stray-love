@@ -21,7 +21,7 @@
 "export_overrides": {
 "image": "\"res://sprites/ranpo/ranpo happy.png\""
 },
-"mirror": true,
+"mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""

@@ -1,2 +1,11 @@
-join ranpo left [animation="Fade In"]
+join ranpo leftmost [animation="Fade In"]
 ranpo (happy): hi hi hi!!!
+ranpo: como estás?
+- bien
+	ranpo (happy): q bueno
+- mal
+	ranpo (smile): ushhh, siempre tan llorón
+	jump z/
+- ...
+	ranpo (serious): oye, te pregunté algo
+	ranpo (talk): acaso eres sordo?
