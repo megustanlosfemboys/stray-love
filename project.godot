@@ -36,16 +36,14 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "capitulo 1": "res://caps/capitulo 1.dtl",
-"intro 2": "res://caps/intro 2.dtl",
-"introduccion": "res://caps/introduccion.dtl",
-"z": "res://caps/z.dtl"
+"introduccion": "res://caps/introduccion.dtl"
 }
 layout/style_directory={
 "": "res://caps/style 1.tres",
 "style 1": "res://caps/style 1.tres"
 }
 glossary/default_case_sensitive=true
-layout/style_list=["res://caps/style 1.tres"]
+layout/style_list=["res://styles text box/style 1.tres"]
 layout/default_style="res://caps/style 1.tres"
 variables={}
 text/letter_speed=0.01
