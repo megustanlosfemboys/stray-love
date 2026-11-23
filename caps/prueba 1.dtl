@@ -1,5 +1,5 @@
-join ranpo (idle) leftmost [animation="Fade In"]
-ranpo (talk): estoy buscando a Poe, la haz visto?
+join atsushi leftmost [animation="Fade In"]
+atsushi: estoy buscando a Poe, la haz visto?
 - sí, mira
 	join poe (Poe Idle) left
 	poe (Poe Smile): ¡Ranpo!
