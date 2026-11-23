@@ -1,0 +1,131 @@
+[gd_scene format=3 uid="uid://cp6dbcuubrnuc"]
+
+[ext_resource type="Script" uid="uid://h3ua65i1gudn" path="res://character_body_2d.gd" id="1_e3k4s"]
+[ext_resource type="Texture2D" uid="uid://bwrd3g7n7480m" path="res://movimiento/atsushi/abajo/1 abajo.png" id="1_fxnqe"]
+[ext_resource type="Texture2D" uid="uid://byl32imxf5sxt" path="res://movimiento/atsushi/abajo/2 abajo.png" id="2_e3k4s"]
+[ext_resource type="Texture2D" uid="uid://byk1dcacwukh7" path="res://movimiento/atsushi/abajo/3 abajo.png" id="3_62wtj"]
+[ext_resource type="Texture2D" uid="uid://c7ewucshd1v0s" path="res://movimiento/atsushi/abajo/4 abajo.png" id="4_jl033"]
+[ext_resource type="Texture2D" uid="uid://dohf76bsk8ham" path="res://movimiento/atsushi/arriba/1 arriba.png" id="5_6ogql"]
+[ext_resource type="Texture2D" uid="uid://sa1wi1ygtgs" path="res://movimiento/atsushi/arriba/2 arriba.png" id="6_ypeox"]
+[ext_resource type="Texture2D" uid="uid://dx42luofuf04t" path="res://movimiento/atsushi/arriba/3 arriba.png" id="7_4cut1"]
+[ext_resource type="Texture2D" uid="uid://11eqvfydmnof" path="res://movimiento/atsushi/arriba/4 arriba.png" id="8_bgpv7"]
+[ext_resource type="Texture2D" uid="uid://cinakf3od4ex7" path="res://movimiento/atsushi/derecha/1 derecha.png" id="9_4hu4m"]
+[ext_resource type="Texture2D" uid="uid://d11k3tpn63l0n" path="res://movimiento/atsushi/derecha/2 derecha.png" id="10_cwvkg"]
+[ext_resource type="Texture2D" uid="uid://b2qgxji7r0im4" path="res://movimiento/atsushi/derecha/3 derecha.png" id="11_gjcer"]
+[ext_resource type="Texture2D" uid="uid://cdu7ny5hg5g45" path="res://movimiento/atsushi/derecha/4 derecha.png" id="12_i5f5a"]
+[ext_resource type="Texture2D" uid="uid://bbkbko0ctao86" path="res://movimiento/atsushi/derecha/5 derecha.png" id="13_4oxoi"]
+[ext_resource type="Texture2D" uid="uid://dnpqot5qtx3j3" path="res://movimiento/atsushi/derecha/6 derecha.png" id="14_mo74u"]
+[ext_resource type="Texture2D" uid="uid://dyo14lsrm1o18" path="res://movimiento/atsushi/izquierda/1 izquierda.png" id="15_7dd13"]
+[ext_resource type="Texture2D" uid="uid://g2hoa8vm4xea" path="res://movimiento/atsushi/izquierda/2 izquierda.png" id="16_1d711"]
+[ext_resource type="Texture2D" uid="uid://biby2g4a5wm2a" path="res://movimiento/atsushi/izquierda/3 izquierda.png" id="17_5eeli"]
+[ext_resource type="Texture2D" uid="uid://cw0c5hjkretyj" path="res://movimiento/atsushi/izquierda/4 izquierda.png" id="18_l4ikj"]
+[ext_resource type="Texture2D" uid="uid://d4ekbg0qkpsve" path="res://movimiento/atsushi/izquierda/5 izquierda.png" id="19_40kpc"]
+[ext_resource type="Texture2D" uid="uid://cvumipciu88w1" path="res://movimiento/atsushi/izquierda/6 izquierda.png" id="20_4gcnt"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_slyti"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_fxnqe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_e3k4s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_62wtj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_jl033")
+}],
+"loop": 1,
+"name": &"abajo",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_6ogql")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ypeox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_4cut1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_bgpv7")
+}],
+"loop": 1,
+"name": &"arriba",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_4hu4m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_cwvkg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_gjcer")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_i5f5a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_4oxoi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_mo74u")
+}],
+"loop": 1,
+"name": &"derecha",
+"speed": 7.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"idle abajo",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_7dd13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_1d711")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_5eeli")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_l4ikj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_40kpc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_4gcnt")
+}],
+"loop": 1,
+"name": &"izquierda",
+"speed": 7.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_slyti"]
+size = Vector2(12, 7)
+
+[node name="player 1" type="Node2D" unique_id=2105350544]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=236761407]
+script = ExtResource("1_e3k4s")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=2080684779]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_slyti")
+animation = &"idle abajo"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=1347134916]
+position = Vector2(0, 14.5)
+shape = SubResource("RectangleShape2D_slyti")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=213279731]
+enabled = false
