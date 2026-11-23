@@ -1,0 +1,18 @@
+join ranpo (idle) leftmost [animation="Fade In"]
+ranpo (talk): estoy buscando a Poe, la haz visto?
+- sí, mira
+	join poe (Poe Idle) left
+	poe (Poe Smile): ¡Ranpo!
+	poe (Poe Shiny Eyes): yo también te estaba buscando
+	update poe (Poe Smile 2) left [z_index="0" mirrored="true"]
+	update poe (Poe Smile 2) left
+	update ranpo (happy) leftmost
+	narrador: y se besan
+- nel
+	ranpo (serious): USHHH, no sirves de nada
+	ranpo (talk): no ves que la estoy buscando??
+	ranpo (talk): ayúdame, quieres?
+	join poe (Poe Insecure) left [animation="Fade In"]
+	poe: hola...
+- quién?
+	ranpo (serious): inútil

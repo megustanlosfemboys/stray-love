@@ -28,6 +28,7 @@ directories/dch_directory={
 "kenji": "res://personajes/kenji.dch",
 "lucy": "res://personajes/lucy.dch",
 "naomi": "res://personajes/naomi.dch",
+"narrador": "res://personajes/narrador.dch",
 "nikolai": "res://personajes/nikolai.dch",
 "poe": "res://personajes/poe.dch",
 "ranpo": "res://personajes/ranpo.dch",
@@ -36,7 +37,8 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "capitulo 1": "res://caps/capitulo 1.dtl",
-"introduccion": "res://caps/introduccion.dtl"
+"introduccion": "res://caps/introduccion.dtl",
+"prueba 1": "res://caps/prueba 1.dtl"
 }
 layout/style_directory={
 "style 1": "res://styles text box/style 1.tres"
@@ -45,7 +47,7 @@ glossary/default_case_sensitive=true
 layout/style_list=["res://styles text box/style 1.tres"]
 layout/default_style="res://caps/style 1.tres"
 variables={}
-text/letter_speed=0.01
+text/letter_speed=0.04
 text/initial_text_reveal_skippable=true
 text/text_reveal_skip_delay=0.1
 text/advance_delay=0.1
@@ -59,7 +61,7 @@ animations/cross_fade_default_length=0.5
 choices/autofocus_first=true
 choices/delay=0.2
 choices/reveal_delay=0
-choices/reveal_by_input=false
+choices/reveal_by_input=true
 save/autosave_delay=60.0
 save/encryption_on_exports_only=true
 text/autopauses={}
