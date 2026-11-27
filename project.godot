@@ -80,6 +80,7 @@ audio/channel_defaults={
 "volume": 0.0
 }
 }
+layout/end_behaviour=2
 
 [display]
 

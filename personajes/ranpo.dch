@@ -16,16 +16,6 @@
 "sound_path": "res://voces/1123.WAV",
 "volume_base": 2.0,
 "volume_variance": 0.0
-},
-"Mood 2": {
-"mode": 0,
-"name": "Mood 2",
-"pitch_base": 1.0,
-"pitch_variance": 0.0,
-"skip_characters": 0.0,
-"sound_path": "",
-"volume_base": 0.0,
-"volume_variance": 0.0
 }
 },
 "style": "style 1",
