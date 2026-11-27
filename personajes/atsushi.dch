@@ -8,9 +8,9 @@
 "sound_mood_default": "",
 "sound_moods": {
 "normal": {
-"mode": 0,
+"mode": 2,
 "name": "normal",
-"pitch_base": 1.0,
+"pitch_base": 1.1,
 "pitch_variance": 0.0,
 "skip_characters": 0.0,
 "sound_path": "res://voces/atsushi 2.MP3",
